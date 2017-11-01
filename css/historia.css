@@ -1,0 +1,34 @@
+#historia h5 {
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+#historia p {
+    text-align: justify;
+}
+#historia a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#seguimiento p {
+    text-align: justify;
+}
+@media (min-width:1024px) {
+    #historia p {
+        width: 1000px;
+        margin: auto;
+        text-align: justify;
+    }
+    @media (min-width:1024px) {
+        #seguimiento p {
+            width: 1000px;
+        margin: auto;
+        text-align: justify;
+    }
+        @media (min-width:784px) {
+        #seguimiento p {
+        text-align: justify;
+    }
+}
